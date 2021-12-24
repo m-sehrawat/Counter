@@ -1,10 +1,10 @@
 # Counter App
 
-This project is React.
+This project is made using React.
 
 ## Project Screenshot
 
-
+![](https://github.com/m-sehrawat/React-Assignment-2/blob/master/src/img/counter-assignment-pic.png)
 
 ## Available Scripts
 
