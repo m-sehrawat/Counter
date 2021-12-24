@@ -8,8 +8,10 @@ function App() {
 
     const changeCount = (value) => {
         setCount((prev) => {
-            if (value === 2 || value === 0.5 || value === 3) {
+            if (value === 2 || value === 0.5) {
                 return (prev * value);
+            } else if (value === "square") {
+                return (prev * prev)
             } else if (value === 0) {
                 return 0;
             } else {
@@ -26,10 +28,10 @@ function App() {
             <div className='boxCenter'>
                 <button onClick={() => changeCount(1)} className='button-5'>Add</button>
                 <button onClick={() => changeCount(-1)} className='button-5'>Subtract</button>
-                <button onClick={() => changeCount(0.5)} className='button-5'>Half</button>
-                <button onClick={() => changeCount(2)} className='button-5'>Square</button>
-                <button onClick={() => changeCount(3)} className='button-5'>Cube</button>
                 <button onClick={() => changeCount(0)} className='button-5'>Reset</button>
+                <button onClick={() => changeCount(2)} className='button-5'>Double</button>
+                <button onClick={() => changeCount(0.5)} className='button-5'>Half</button>
+                <button onClick={() => changeCount("square")} className='button-5'>Square</button>
             </div>
 
         </div>
