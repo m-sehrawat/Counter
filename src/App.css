@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+.container {
+  border: 1px solid rgb(241, 241, 241);
+  width: 370px;
+  height: 280px;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 0 0 50px #ccc;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box {
+  border: 1px solid rgb(241, 241, 241);
+  width: 290px;
+  height: 50px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.boxCenter {
+  width: 290px;
+  margin: 30px auto;
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* Button CSS */
+.button-5 {
   align-items: center;
+  background-clip: padding-box;
+  background-color: #075697;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-5:hover {
+  transform: translateY(-1px);
 }
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
