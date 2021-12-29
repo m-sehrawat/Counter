@@ -2,7 +2,7 @@
 
 This project is made using React.
 
-## Deployment Link
+## [Deployment Link](https://m-sehrawat.github.io/Counter/)
 
 ## Project Screenshot
 
